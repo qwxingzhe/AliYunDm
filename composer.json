@@ -1,6 +1,6 @@
 {
     "name": "qw_xingzhe/ali-yun-dm",
-	"description": "PHPExcel Helper",
+	"description": "aliyun-php-sdk-dm",
     "license": "Apache-2.0",
     "homepage": "https://github.com/qwxingzhe/AliYunDm",
     "type": "library",
