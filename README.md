@@ -1,6 +1,6 @@
 # 使用简介
 
 ~~~
-composer require whalephp/phpexcel-helper
+composer require qw_xingzhe/ali-yun-dm
 ~~~
 
