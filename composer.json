@@ -1,0 +1,15 @@
+{
+    "name": "qw_xingzhe/ali-yun-dm",
+	"description": "PHPExcel Helper",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/qwxingzhe/AliYunDm",
+    "type": "library",
+    "keywords": ["aliyun-php-sdk-dm"],
+    "authors": [
+        {
+            "name": "qw_xingzhe",
+            "email": "1243463730@qq.com"
+        }
+    ],
+    "require": {}
+}
