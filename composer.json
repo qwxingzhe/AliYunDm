@@ -11,5 +11,10 @@
             "email": "1243463730@qq.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "whalephp\\tool\\": "src"
+        }
+    }
 }
