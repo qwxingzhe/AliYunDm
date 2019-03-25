@@ -31,10 +31,10 @@ class AliYunDm
 		//新加坡或澳洲region需要设置SDK的版本，华东1（杭州）不需要设置。
 		//$request->setVersion("2017-06-22");
 		//$request->setAccountName("控制台创建的发信地址");
-		$request->setAccountName("push@exem.yunceku.com");
-		$request->setFromAlias("发信人昵称");
+		$request->setAccountName($opt['account_name']);
+		$request->setFromAlias($opt['from_alias']);
 		$request->setAddressType(1);
-		$request->setTagName("控制台创建的标签");
+		//$request->setTagName("控制台创建的标签");
 		$request->setReplyToAddress("true");
 		//$request->setToAddress("目标地址");
 		$request->setToAddress($opt['receiver']);
@@ -44,7 +44,7 @@ class AliYunDm
 		$request->setHtmlBody($opt['body']);        
 		try {
 			$response = $client->getAcsResponse($request);
-			print_r($response);
+			return $response;
 		}
 		catch (\ClientException  $e) {
 			print_r($e->getErrorCode());   
